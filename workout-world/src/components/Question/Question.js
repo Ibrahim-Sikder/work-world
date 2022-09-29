@@ -1,9 +1,9 @@
 import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
-import Question from '../Question/Question'; 
+import './Question.css'
 
 
- Question = () => {
+ const Question = () => {
     return (
         <div className="container ReactAccordion">
              <Accordion defaultActiveKey="0">
@@ -16,15 +16,17 @@ import Question from '../Question/Question';
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Header> <h3>what is the difference between props  and state ? </h3> </Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          <p>Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and cannot be passed to other components. The this. setState property is used to update the state values in the component.</p>
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header> <h3>what are doing useEffect besides dataload ?</h3></Accordion.Header>
+        <Accordion.Body>
+         <p> Fetching data
+Reading from local storage
+Registering and deregistering event listeners</p>
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
