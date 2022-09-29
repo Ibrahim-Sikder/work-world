@@ -1,9 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import Players from '../Players/Players'; 
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 import './Home.css';
 
 const Home = () => {
+  const displayToast = () =>{
+    toast.success("Wow! You have completed your daily activity.");
+    
+
+  }
   const [players,setPlayers]=useState([]);
   useEffect(()=>{
    fetch(`products.json`)
@@ -65,10 +72,19 @@ const Home = () => {
               <small>15 seconds </small>
             </div>
           </div>
-          <button className="completBtn"> Activity Complete </button>
+          <button className="completBtn" onClick={displayToast}> Activity Complete </button>
           </div>
          
-
+          <ToastContainer
+          position="top-center"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover />
         </div>
       </div>
     );
