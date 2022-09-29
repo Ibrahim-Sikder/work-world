@@ -25,7 +25,7 @@ const Home = () => {
         <small class="fitnessIcon"> <FaAccessibleIcon></FaAccessibleIcon> </small>
           <h1 className='head'>Fitness for life </h1>
         </div>
-          <h6>Select today’s exercise</h6>
+          <h6 className="selectToday">Select today’s exercise</h6>
           
         </div>
         
@@ -55,7 +55,7 @@ const Home = () => {
                 <div>Weight</div>
               </div>
             </div>
-            <h5>Add a break </h5>
+            <h5 className="Break">Add a break </h5>
             <div className="btnGroup">
               <button>10s</button>
               <button>20s</button>

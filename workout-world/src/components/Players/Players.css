@@ -57,3 +57,27 @@
     }
 
 }
+
+@media only screen and (max-width:768px){
+
+    .players-container{
+      
+        margin-left:60px;
+        margin-bottom:30px;
+       
+    }
+   
+
+}
+
+@media only screen and (max-width:500px){
+
+    .players-container{
+      
+        margin-left:100px;
+       
+       
+    }
+   
+
+}

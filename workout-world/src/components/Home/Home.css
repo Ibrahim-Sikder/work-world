@@ -122,5 +122,111 @@ Media query
         gap: 0px;
       margin-bottom:100px;
     }
+    .personInfo{
+        text-align: center;
+    }
+    .measurement{
+        width:500px;
+        margin:auto;
+    }
+    .Break{
+        text-align:center;
+        margin: 20px 0px;
+    }
+    .btnGroup{
+        width:500px;
+        margin:auto;
+    }
+    .excercise-details{
+        width:500px;
+        margin:auto;
+        margin-top:30px;
+
+    }
+    .completBtn{
+        margin:auto;
+        width:50%;
+        margin-top:20px;
+        
+    }
+    .fitnessClub{
+        margin-bottom:30px;
+        margin-top:30px;
+        margin-left:30px;
+    }
+    .selectToday{
+        margin-left:40px;
+        margin-bottom:20px;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+    .home{
+       
+        grid-template-columns: 2fr;
+    }
+    .home-container{
+      
+        margin-left: 0px;
+        margin-right: 0px;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        justify-content: center;
+
+    }
+    .fitnessClub{
+        
+        
+        margin-left:50px;
+    }
+    .selectToday{
+        margin-left:60px;
+       
+    }
+
+}
+
+@media only screen and (max-width:500px){
+
+    .home{
+       
+        grid-template-columns: 1fr;
+    }
+    .home-container{
+      
+        
+        grid-template-columns: 1fr;
+     
+
+    }
+    .measurement{
+        width:350px;
+       
+    }
+    .btnGroup{
+        width:350px;
+       
+    }
+    .excercise-details{
+        width:350px;
+        
+
+    }
+    .completBtn{
+        width:50%;
+        
+        
+    }
+    .fitnessClub{
+        
+        
+        margin-left:70px;
+    }
+    .selectToday{
+        margin-left:90px;
+       
+    }
+
 
 }
