@@ -15,7 +15,7 @@ import './Question.css'
          </p>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="1">
+      <Accordion.Item eventKey="2">
         <Accordion.Header> <h3>what is the difference between props  and state ? </h3> </Accordion.Header>
         <Accordion.Body>
           <p>Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and cannot be passed to other components. The this. setState property is used to update the state values in the component.</p>

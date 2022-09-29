@@ -103,3 +103,24 @@
     font-size:30px;
     margin-right:15px;
 }
+
+
+/*
+Media query 
+*/
+@media only screen and (max-width:992px){
+
+    .home{
+       
+        grid-template-columns: 3fr;
+    }
+    .home-container{
+      
+        margin-left: 0px;
+        margin-right: 0px;
+        grid-template-columns: repeat(3,1fr);
+        gap: 0px;
+      margin-bottom:100px;
+    }
+
+}
