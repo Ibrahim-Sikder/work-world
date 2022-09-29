@@ -2,7 +2,7 @@
     {
       "id": 1,
       "description": "A cricket bat is a specialised piece of equipment used by batters in the sport of cricket to hit the ball, typically consisting of a cane handle attached to a flat-fronted willow-wood blade",
-      "picture": "https://images.unsplash.com/photo-1597452485669-2c7bb5fef90d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+      "img": "https://www.mykhel.com/img/2018/08/shakib-cropped_4b13687a93tq1fl1e38iulmd7.jpg",
       "age": "18-20",
       "Time": "20s",
       "name" : "John Doe"
@@ -10,7 +10,7 @@
     {
       "id": 2,
       "description": "A cricket bat is a specialised piece of equipment used by batters in the sport of cricket to hit the ball, typically consisting of a cane handle attached to a flat-fronted willow-wood blade",
-      "picture": "https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80",
+      "img": "https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80",
       "age": "18-20",
       "Time": "20s",
       "name" : "Rahoul"
@@ -18,7 +18,7 @@
     {
       "id": 3,
       "description": "A cricket bat is a specialised piece of equipment used by batters in the sport of cricket to hit the ball, typically consisting of a cane handle attached to a flat-fronted willow-wood blade",
-      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fsports%2Fcricket-sport&psig=AOvVaw0OjzTTZuRO8bcS4yufthn3&ust=1664473206454000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCr74eEuPoCFQAAAAAdAAAAABAE",
+      "img": "https://image.shutterstock.com/image-photo/barcelona-feb-23-lionel-messi-260nw-1900547713.jpg",
       "age": "18-20",
       "Time": "20s",
       "name" : "Md Omor"
@@ -26,7 +26,7 @@
     {
       "id": 4,
       "description": "A cricket bat is a specialised piece of equipment used by batters in the sport of cricket to hit the ball, typically consisting of a cane handle attached to a flat-fronted willow-wood blade",
-      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fsports%2Fcricket-sport&psig=AOvVaw0OjzTTZuRO8bcS4yufthn3&ust=1664473206454000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCr74eEuPoCFQAAAAAdAAAAABAE",
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLOIxJ9Qvhpizw002FqB5_XSzwkwAnRexsryO-UScdKg&s",
       "age": "18-20",
       "Time": "20s",
       "name" : "Ibrahim Sikder"
@@ -34,7 +34,7 @@
     {
       "id": 5,
       "description": "A cricket bat is a specialised piece of equipment used by batters in the sport of cricket to hit the ball, typically consisting of a cane handle attached to a flat-fronted willow-wood blade",
-      "picture": "https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWVuJTIwd29ya291dHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "img": "https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWVuJTIwd29ya291dHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
       "Time": "20s",
       "name" : "Md Omor"
       
@@ -42,7 +42,7 @@
     {
       "id": 6,
       "description": "A cricket bat is a specialised piece of equipment used by batters in the sport of cricket to hit the ball, typically consisting of a cane handle attached to a flat-fronted willow-wood blade",
-      "picture": "https://images.pexels.com/photos/3601184/pexels-photo-3601184.jpeg?cs=srgb&dl=pexels-patrick-case-3601184.jpg&fm=jpg",
+      "img": "https://images.pexels.com/photos/3601184/pexels-photo-3601184.jpeg?cs=srgb&dl=pexels-patrick-case-3601184.jpg&fm=jpg",
       "age": "18-20",
       "Time": "20s",
       "name" : "Md Omor"

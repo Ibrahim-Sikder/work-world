@@ -7,17 +7,23 @@ import { ToastContainer, toast } from 'react-toastify';
 import './Home.css';
 
 const Home = () => {
+
   const displayToast = () =>{
     toast.success("Wow! You have completed your daily activity.");
-    
-
+  
   }
+
+
+
+
   const [players,setPlayers]=useState([]);
   useEffect(()=>{
    fetch(`products.json`)
    .then(res =>res.json())
    .then(data =>setPlayers(data))
   },[])
+
+  
     return (
       <div>
         <div>
@@ -88,6 +94,8 @@ const Home = () => {
           pauseOnFocusLoss
           draggable
           pauseOnHover />
+
+          
         </div>
       </div>
     );
