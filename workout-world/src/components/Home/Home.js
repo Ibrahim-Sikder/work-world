@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Players from '../Players/Players'; 
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
+  import { FaAccessibleIcon } from "react-icons/fa";
 
 import './Home.css';
 
@@ -20,8 +21,10 @@ const Home = () => {
     return (
       <div>
         <div>
-         
+        <div className="fitnessClub">
+        <small class="fitnessIcon"> <FaAccessibleIcon></FaAccessibleIcon> </small>
           <h1 className='head'>Fitness for life </h1>
+        </div>
           <h6>Select today’s exercise</h6>
           
         </div>
